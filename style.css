@@ -1,0 +1,77 @@
+/* input[type="button"] */
+/* { */
+    /* width: 100px; */
+    /* height: 50px; */
+    /* font-size: larger; */
+    /* padding-left: 10px; */
+    /* border-color: rgb(190, 43, 43); */
+    /* border-radius: 5px; */
+    /* align-items: center; */
+
+/* } */
+ input[type="text"] 
+{
+width: 300px;
+border: none;
+outline: none;
+padding: 20px;
+margin: 10px;
+background: transparent;
+color: #fff;
+font-size: 35px;
+text-align: left;
+cursor: pointer;
+
+}
+body{
+    background:linear-gradient(45deg ,#3a4452, #0a0a0a);
+    align-items: center;
+    justify-content: center;
+    
+}
+.row{
+    padding: 15px;
+    box-shadow: 0 0 10px #be5a5a;
+    border: 2px solid rgb(116,114,114);
+    border-radius: 50px;
+    background: transparent;
+}
+input[type="button"]{
+    background: transparent;
+    color: #fff;
+    padding: 10px; 
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0;
+    box-shadow: -5px -6px 15px #0a0a0a;
+    border-radius: 50%;
+    outline: 1px solid #313131;
+    outline-offset: 5px;
+    cursor: pointer;
+}
+input[type="button"]:active{
+    background: #c87373;
+    transform: translate(2px,2px);
+}
+.ai{
+    color: rgb(43, 224, 82);
+    font-size: xx-large;
+    background-color: solid  rgb(217, 178, 105);
+    background: linear-gradient(#ec4545);
+     
+}
+#divide{
+    color: rgb(233, 233, 13);
+    background: #1e1919;
+    font-weight: 700;
+
+}
+#total{
+    background: orangered;
+    font-weight: 900;
+
+}
